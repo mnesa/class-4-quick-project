@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 20px;
+  color: #003153;
+  line-height: 1.1;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+}
+/* header */
+header{
+  background: #fff;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  margin-bottom: 20px;
+}
+.logo{
+  width: 25%px;
+  float: left;
+  padding-top: 20px;
+}
+nav{
+  width: 70%;
+  float: right;
+  padding-top: 20px;
+}
+nav ul{
+  text-align: right;
+}
+nav li{
+  display: inline-block;
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  color: #003153;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+/* showcase */
+#showcase{
+  padding-top: 120px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#showcase h1{
+  font-size: 70px;
+  margin: 20px 0 30px 0;
+}
+#showcase h1 span{
+  color: darkblue;
+}
+#showcase p{
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+#showcase img{
+  width: 60%;
+  margin: auto;
+}
+/* feature */
+#feature{
+  padding: 30px 0;
+}
+
+.feature-col{
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+.feature-col h2{
+  font-size: 60px;
+}
+.feature-col h2 span{
+  color: rgba(255, 0, 0, 0.801);
+}
+.feature-col p{
+  font-size: 26px;
+  padding-top: 20px;
+}
+.feature-col.right-align{
+  text-align: right;
+}
+/* card-sec */
+#card-sec{
+  margin-bottom: 50px;
+}
+.card-box{
+  margin: 30px 0;
+}
+.card{
+  width: 30%;
+  height: 450px;
+  float: left;
+  margin: 30px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card img{
+height: 250px;
+padding: 20px;
+}
+.card h3{
+  font-size: 30px;
+  padding: 16px 10px;
+}
+.card p{
+  font-size: 20px;
+  padding: 10px;
+}
+.red{
+   background-color:  #ffe5e5;
+}
+.red:hover{
+  background-color: rgb(255, 223, 184, 0.7);
+  box-shadow: rgba(255, 223, 184, 0.36) 0px 6px 8px;
+}
+.green{
+  background-color: #e5ffe5;
+}
+.green:hover{
+  background-color: rgb(184, 255, 221, 0.7);
+  box-shadow: rgba(255, 223, 184, 0.36) 0px 6px 8px;
+}
+.yellow{
+  background-color: #ffffe5;
+}
+.yellow:hover{
+  background-color: rgba(195, 255, 184, 0.7);
+  box-shadow: rgba(255, 223, 184, 0.36) 0px 6px 8px;
+}
+
+/* fotter */
+footer{
+  background-color: #eeeeee;
+  margin-top: 20px;
+}
+.footer-col{
+  width: 25%;
+  height: 280px;
+  float: left;
+  padding: 30px;
+ text-transform: capitalize;
+}
+.footer-col h4{
+  font-size: 22px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.footer-col li{
+  list-style: none;
+  padding: 5px 10px;
+}
+.footer-col li a{
+  text-decoration: none;
+  color: #003153;
+  font-size: 20px;
+}
